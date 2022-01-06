@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100%;
+}
+
+.container-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    padding: 0 200px;
+    gap: 100px;
+    margin-bottom: 64px;
+}
+
+.subtext {
+    color: #d0d0d0;
+    font-size: 24px;
+    word-wrap: break-word;
+    margin-bottom: 20px;
+
+}
+
+.header {
+    display: flex;
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-links {
+    display: flex;
+    gap: 128px;
+}
+
+
+.image {
+    width: 800px;
+    height: 400px;
+}
+
+.logo {
+    font-size: 48px;
+    color: white;
+}
+
+.title {
+    font-size: 48px;
+    color: white;
+    font-weight: 900;
+    word-wrap: break-word;
+    margin-bottom: 10px;
+}
+
+.content-1 {
+    display: flex;
+    gap: 32px;
+}
+
+
+
+.sign-up {
+    background-color: #3882F6;
+    color: #eeeeee;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 20px;
+    border: 1px black solid;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container-3 .img {
+    border: 3px #3882F6 solid;
+    height: 200px;
+    width: 200px;
+    border-radius: 12%;
+    margin-bottom: 16px;
+}
+
+.container-3 .img-desc {
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+.container-3 ul {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    text-align: center;
+    padding: 100px 400px;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-from {
+    margin-top: 16px;
+    font-weight: 700;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 24px;
+}
+
+.content-2 {
+    background-color: #3882F6;
+    color: #eeeeee;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 100px 320px;
+    padding: 50px 100px;
+    border-radius: 12px;
+    
+}
+
+.content-2 .title {
+    color: #eeeeee;
+    font-weight: 900;
+    font-size: 32px;
+}
+
+.footer {
+    background-color: #1f2937;
+    color:#eeeeee;
+    text-align: center;
+    padding: 32px;
+    font-size: 24px;
+}
+
+.info .title {
+    color: rgb(14, 13, 13);
+    text-align: center;
+    margin-bottom: 64px;
+}
